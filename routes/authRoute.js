@@ -18,6 +18,9 @@ authRouter.post("/login", async (req, res) => {
                 // creating jwt token 
                 const token = await user.getJWT();
                 res.cookie("token", token, {
+                     httpOnly: true,  // Prevents JavaScript from accessing the cookie
+                secure: true,    // Required for HTTPS (Remove if testing on localhost)
+                sameSite: "None", // Required for cross-origin requests
                     expires: new Date(Date.now() + 8 * 3600000) 
                 });
                 res.json({
