@@ -2,7 +2,7 @@ const express= require('express');
 const menuItem = require('../models/menuItem');
 const { authMiddleware } = require('../middleware/authmid');
 const MenuItem = require('../models/menuItem');
-const Restaurant = require('../models/Restaurant');
+const Restaurant = require('../models/restaurant');
 
 
 const menuItemRouter = express.Router();
