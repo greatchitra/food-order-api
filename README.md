@@ -112,10 +112,9 @@ Foodie-hub-server/
 
 ## 🙋‍♂️ Author
 
-**Adarsh Bhagat**  
-📧 [bhagatadarsh01@gmail.com](mailto:bhagatadarsh01@gmail.com)  
-🌐 [GitHub](https://github.com/adarshbhagatjii)
-
+**Chitra Gautam**  
+📧 [gautamchitra276@gmail.com](mailto:gautamchitra276@gmail.com)  
+🌐 [GitHub](https://github.com/greatchitra)
 ---
 
 ## 📄 License
